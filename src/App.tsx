@@ -269,7 +269,7 @@ const AIAgentSection = () => {
                   disabled={isLoading}
                 />
                 <button
-                  onClick={handleSend}
+                  onClick={() => handleSend()}
                   disabled={!input.trim() || isLoading}
                   className="self-end bg-gradient-primary hover:opacity-90 transition-opacity rounded-full w-12 h-12 flex items-center justify-center text-white"
                 >
